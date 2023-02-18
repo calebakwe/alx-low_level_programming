@@ -8,10 +8,6 @@
  */
 
 int main(void)
-/**
- *void- returns all letters except e and q
- *Returns: Always 0 (Success)
- */
 {
 	char ch = 'a';
 
