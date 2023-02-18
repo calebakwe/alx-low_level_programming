@@ -2,12 +2,15 @@
 #include <stdlib.h>
 
 /**
-  main - main function to  prints the alphabet in lowercase except q and e
+ *main - main function to  prints the alphabet in lowercase except q and e
  *
  * Return: Always 0 (success)
  */
 
-int main(void)/*main-  prints the alphabet in lowercase except q and e*/
+int main(void)
+	/**
+	 * main-  prints the alphabet in lowercase except q and e
+	 */
 {
 	char ch = 'a';
 
