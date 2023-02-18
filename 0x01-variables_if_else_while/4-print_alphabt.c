@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main- returns alphabets except e and q
+ * main-  prints the alphabet in lowercase except q and e
  *
  * Return : Always 0 (Success)
  */
 
-int main(void)
+int main(void)/*main-  prints the alphabet in lowercase except q and e*/
 {
 	char ch = 'a';
 
