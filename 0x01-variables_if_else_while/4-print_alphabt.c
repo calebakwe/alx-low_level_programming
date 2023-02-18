@@ -8,7 +8,7 @@
  */
 
 int main(void)
-
+/* main- returns all letters except e and q*/
 {
 	char ch = 'a';
 
