@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main-  prints the alphabet in lowercase except q and e
+  main - main function to  prints the alphabet in lowercase except q and e
  *
- * Return : Always 0 (Success)
+ * Return: Always 0 (success)
  */
 
 int main(void)/*main-  prints the alphabet in lowercase except q and e*/
