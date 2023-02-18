@@ -9,7 +9,7 @@
 
 int main(void)
 	/**
-	 * main-  prints the alphabet in lowercase except q and e
+	 * main- prints the alphabet in lowercase except q and e
 	 */
 {
 	char ch = 'a';
