@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+/* betty style doc for function main goes there */
 /**
  * main- returns numbers of base 10
  *
