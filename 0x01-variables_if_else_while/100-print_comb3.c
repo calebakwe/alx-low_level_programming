@@ -19,16 +19,16 @@ int main(void)
 		{
 			if (!((ones == tens) || (tens > ones)))/*removes repetition*/
 			{
-				putchar(tens);
-				putchar(ones);
+				putchar(',');
+				putchar(' ');
 				if (!(ones == '0' && '9'))/*adds comma and space*/
 				{
-					putchar(',');
-					putchar(' ');
-					break;
+					putchar(tens);
+					putchar(ones);
 				}
 			}
 		}
+		
 	}
 	putchar('\n');
 	return (0);
