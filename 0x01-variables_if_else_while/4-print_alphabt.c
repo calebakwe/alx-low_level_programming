@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* betty style doc for function main goes there */
 /**
  *main - main function to  prints the alphabet in lowercase except q and e
  *
@@ -8,9 +9,7 @@
  */
 
 int main(void)
-	/**
-	 * main- prints the alphabet in lowercase except q and e
-	 */
+
 {
 	char ch = 'a';
 
