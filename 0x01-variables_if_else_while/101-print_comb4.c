@@ -11,7 +11,7 @@ int main(void)
 	int tens = '0';
 	int hundreds = '0';
 
-	for (hundreds = '0'; hundreds <= '9'; hundreds++)
+	for ((hundreds = '0'; hundreds <= '9'; hundreds++) != EOF)
 	{
 		for (tens = '0'; tens <= '9'; tens++)
 		{
@@ -24,11 +24,13 @@ int main(void)
 					putchar(hundreds);
 					putchar(tens);
 					putchar(ones);
-					if (!(ones == '9' && hundreds == '7' && tens == '8'))
+					if (!(ones == '9' && hundreds == '7' && tens == '8') && int(ones, tens, hundreds) == EOF)
 						/* add comma and space*/
 					{
 						putchar(',');
 						putchar(' ');
+						break;
+
 					}
 				}
 			}
