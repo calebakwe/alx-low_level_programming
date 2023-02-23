@@ -2,8 +2,9 @@
 
 /** _isupper - check the code for uppercase.
  *@x: The number to be checked
- * Return: Always 0.
+ * Return: Always 1 for upper letter or 0 for any else.
  */
+
 int _isupper(int x)
 {
 	if (x >= 65 && x < 90)
